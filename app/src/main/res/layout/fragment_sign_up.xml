@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="fragments.SignUpFragment"
-    android:orientation="vertical"
-    android:background="BBDEFB">
+    android:orientation="vertical">
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,7 +36,7 @@
 
             <!-- Email Label -->
 
-                <EditText android:id="@+id/etlog_email"
+                <EditText android:id="@+id/etsign_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -46,7 +45,7 @@
 
             <!-- Password Label -->
 
-                <EditText android:id="@+id/etlog_password"
+                <EditText android:id="@+id/etsign_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
